@@ -66,7 +66,7 @@ export default function ProjectsList (){
                            Site desenvolvido para imoboliária
 
                         </Card.Text>
-                        <button href="https://vagner-imoveis.herokuapp.com/" className="card-btn">ver site</button>
+                        <button href="https://www.vagner-imobiliaria.com.br/" className="card-btn">ver site</button>
                     </Card.Body>
 
                 </Card>
