@@ -15,7 +15,7 @@ export default function OtherProjects(){
             height:"540px",
             padding:"20px"
             }}>
-            <h4>Projetos em Jogos</h4>
+            <h4>Outros projetos</h4>
             <Carousel>
                 <CarouselItem>
                 <iframe width="600" height="400" 
