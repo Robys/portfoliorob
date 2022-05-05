@@ -3,7 +3,7 @@ import rob from '../imgs/rob.jpg'
 export default function About(){
 
     return (
-        <div style={{textAlign:"center"}}>
+        <div style={{textAlign:"center",width:"100%"}}>
             <h4>Sobre mim</h4>
             <div className='about-card'>
                 <Image src={rob} roundedCircle  style={{width:"180px",height:"180px"}}/>

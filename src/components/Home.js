@@ -2,6 +2,7 @@ import {Image,Container} from 'react-bootstrap'
 import ProjectsList from './ProjectsList'
 import About from './About'
 import robert from '../imgs/robert.jpg'
+import OtherProjects from './OtherProjects'
 
 
 export default function Home (){
@@ -18,8 +19,7 @@ export default function Home (){
                 <div style={{marginTop:"40px"}}>
 
                 <h2>Olá! Eu sou Robert </h2>
-                <p>Web Designer, game dev, editor de vídeo e produtor músical. 
-                </p>
+                <p>Web Designer FullStack e etc</p>
 
                 </div>
 
@@ -35,6 +35,12 @@ export default function Home (){
 
             <div style={{marginTop:"20px",height:"720px",marginBottom:"40px"}}>
                 <About/>
+
+            </div>
+            <div style={{height:"720px",marginBottom:"40px"}}>
+
+
+                <OtherProjects/>
             </div>
 
 

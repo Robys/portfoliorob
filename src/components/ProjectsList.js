@@ -3,6 +3,7 @@ import mylittle from '../imgs/mylittle.jpg'
 import pepperoni from '../imgs/pepperoni.jpg'
 import tagg from '../imgs/Tagg.jpg'
 import vag from '../imgs/vag.jpg'
+import OtherProjects from './OtherProjects'
 
 export default function ProjectsList (){
 
