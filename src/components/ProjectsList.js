@@ -7,7 +7,7 @@ import vag from '../imgs/vag.jpg'
 export default function ProjectsList (){
 
     return (
-        <div style={{width:"100%", marginTop:"80px", marginLeft:"60px"}}>
+        <div style={{width:"100%", marginTop:"40px", marginLeft:"60px", height:"560px"}}>
                 <Card className="card">
                     <Card.Img src={mylittle} alt="My Little Store"/>
                     <Card.Body>
@@ -20,8 +20,8 @@ export default function ProjectsList (){
                             de compras 
 
                         </Card.Text>
-                        <button href="https://mylittlestore.vercel.app/" className="card-btn">ver site</button>
                     </Card.Body>
+                    <a href="https://mylittlestore.vercel.app/" className="card-btn">ver site</a>
 
                 </Card>
 
@@ -36,8 +36,8 @@ export default function ProjectsList (){
                             comentar, dar like ou dislike em receitar de outros usuários.
 
                         </Card.Text>
-                        <button href="https://pepperoni.vercel.app/" className="card-btn">ver site</button>
                     </Card.Body>
+                        <a href="https://pepperoni.vercel.app/" className="card-btn">ver site</a>
 
                 </Card>
 
@@ -45,15 +45,15 @@ export default function ProjectsList (){
                 <Card.Img src={tagg} alt="Tagg"/>
                     <Card.Body>
                         <Card.Title>Tagg</Card.Title>
-                        <Card.Subtitle> React + Bootstrap + MongoDB </Card.Subtitle>
+                        <Card.Subtitle> GraphqlQL + Mongo DB + React + MaterialUI </Card.Subtitle>
                         <Card.Text>
                            Meu trabalho de conclusão de curso para curso de
-                           pós graduação da PUC-Minas.
-                           Um App de troca/venda de games usádos.
+                           pós graduação da PUC-Minas, desenvolvido unico e inteiramente por mim
+                           Um. App de troca/venda de games usádos.
 
                         </Card.Text>
-                        <button href="https://troque-agora-games.herokuapp.com/" className="card-btn">ver site</button>
                     </Card.Body>
+                        <a href="https://troque-agora-games.herokuapp.com" className="card-btn">ver site</a>
 
                 </Card>
 
@@ -61,13 +61,14 @@ export default function ProjectsList (){
                 <Card.Img src={vag} alt="Vagner Imóveis"/>
                     <Card.Body>
                         <Card.Title>Vagner Imóveis</Card.Title>
-                        <Card.Subtitle> React + Material Design + MongoDB </Card.Subtitle>
+                        <Card.Subtitle> React + Material UI + MongoDB </Card.Subtitle>
                         <Card.Text>
-                           Site desenvolvido para imoboliária
+                           Site real, desenvolvido para uma imoboliária. Utlizando GraphqlQL,
+                           Mongo DB e o framework React JS.
 
                         </Card.Text>
-                        <button href="https://www.vagner-imobiliaria.com.br/" className="card-btn">ver site</button>
                     </Card.Body>
+                        <a href="https://www.vagner-imobiliaria.com.br" className="card-btn">ver site</a>
 
                 </Card>
 

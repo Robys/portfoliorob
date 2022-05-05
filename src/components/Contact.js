@@ -21,8 +21,12 @@ export default function Contact (){
             width:"480px"
         },
         input:{
-            marginBottom:"20px"
-        }
+            marginBottom:"10px"
+        },
+        textarea:{
+            margin:"10px",
+            height:"120px"
+        },
     }
 
     const handleEmailSend = e =>{
@@ -60,9 +64,9 @@ export default function Contact (){
                 <Form.Control id="metter" name="metter" style={formStyle.input} onChange={e => setmetter(e.target.value)}/>
 
                 <Form.Label>Mensagem</Form.Label>
-                <Form.Control type="textarea" id="message" name="message" style={formStyle.input} onChange={e => setmessage(e.target.value)}/>
+                <Form.Control  as="textarea" rows={3} name="message" tyle={formStyle.textarea} onChange={e => setmessage(e.target.value)}/>
 
-                <button type="submit" className="card-btn">Enviar</button>
+                <button type="submit" className="card-btn" style={{marginTop:"20px"}}>Enviar</button>
 
             </Form>
             

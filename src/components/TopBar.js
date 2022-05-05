@@ -8,7 +8,6 @@ export default function TopBar (){
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-                <NavLink href="/projects">Meus Projetos</NavLink>
                 <NavLink href="/contact">Contato</NavLink>
 
             </Nav>

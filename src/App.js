@@ -2,7 +2,8 @@ import {BrowserRouter,Route} from 'react-router-dom'
 import TopBar from './components/TopBar'
 import Home from './components/Home'
 import Contact from './components/Contact'
-import Projects from './components/Projects'
+
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,10 +13,10 @@ function App() {
     <BrowserRouter>
     <Route exact path="/" component={Home}/>
     <Route exact path="/contact" component={Contact}/>
-    <Route exact path="/projects" component={Projects}/>
     
     
     </BrowserRouter>
+    <Footer/>
     </div>
   );
 }
